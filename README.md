@@ -1,6 +1,7 @@
 # GY4
 ## NetCat
 > szerverként: `nc` és az `1234` porton akkor és `localhost`-on `nc -l 1234`
+
 > kliens `nc localhost 1234`
 
 vagy `nc google.com 80` és akkor a googlehöz kaplcsolódunk HTTPként
@@ -9,12 +10,11 @@ Lokális webszerver is lehet:
 szerver netcat: `nc -l 12345` ammihez a böngésző `localhost:12345`ton kersztül kapcsolódik
 
 ## tcpdump
-szűrés: ``
-interface: `-i`
-localhost: `lo`
-fáklbamentés: `-w`
+  interface: `-i`
+  localhost: `lo`
+  fáklbamentés: `-w`
 
-`openwrt` és `ddwrt` fimrware a routerre támogatja, hogy különböző plusz funkciókat használjunk.
+`openwrt` és `ddwrt` fimrwarek a routeren támogatják, hogy különböző plusz funkciókat használjunk.
 
 ## Wireshark
  
