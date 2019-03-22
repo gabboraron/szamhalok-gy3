@@ -38,3 +38,15 @@ a socketen ahol hallgatok várom a klienst: `sock.accept()`
 import socket
 sock = socket.socket(socket.AF_INET, socket....
 ````
+## Feladatok
+### egyszerű kliens-server
+- kliens kapcsolódik az `12345` porton a `localost`hoz és elküldi a `kerdes` szót mire a server `valasz` szóval válaszol.
+> fájl: `testserverclient.py` és `testserver.py`
+
+### egyszerű chatprogram
+- kliens a konzolon kapott értéket átküldi, a server a konzolon kap választ és azt átküldi így megy `exit`ig
+> fájl: `chatclient.py` és `chatserver.py`
+
+### számológép
+- a kliens két számot küld és egy operátort egymás után külön-külön, majd a server azt feldolgozza és visszaküldi a műveletek eredményét
+> fájl (mintamegoldás): `calculator.py` és `client.py` valamint azok 3-mas verziójú megoldása.
