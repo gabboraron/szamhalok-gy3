@@ -1,4 +1,4 @@
-# GY4
+# GY3
 ## NetCat
 > szerverként: `nc` és az `1234` porton akkor és `localhost`-on `nc -l 1234`
 
